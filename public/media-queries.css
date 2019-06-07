@@ -1,0 +1,50 @@
+/* Tablet and "landscape" mobile phone */
+@media (max-width: 1000px) {
+  .header {
+    /* background-color: green; */
+  }
+
+  .header > img {
+    width: 60%;
+  }
+
+  .jg_button {
+    border: 0;
+    background-color: #0d3068;
+    color: #f0f0f0;
+    height: 40px;
+    width: 150px;
+    font-size: 0.9rem;
+    padding: 5px 10px;
+  }
+
+  .projects-wrapper {
+    padding: 0 20px;
+    flex-direction: column;
+  }
+}
+
+/* "Portrait" mobile phone */
+@media (max-width: 615px) {
+  .header {
+    /* background-color: red; */
+  }
+
+  .header > img {
+    width: 85%;
+  }
+
+  .jg_button {
+    border: 0;
+    background-color: #0d3068;
+    color: #f0f0f0;
+    height: 40px;
+    width: 150px;
+    font-size: 1rem;
+  }
+
+  .projects-wrapper {
+    padding: 0 15px;
+    flex-direction: column;
+  }
+}
